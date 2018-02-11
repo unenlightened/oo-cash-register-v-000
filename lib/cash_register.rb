@@ -3,7 +3,7 @@ class CashRegister
 
   def initialize(discount = 0)
     @total = 0
-    @discount = discount.to_f         # to fload
+    @discount = discount.to_f         # to float
   end
 
  def add_item(title, price, quantity = 1)
