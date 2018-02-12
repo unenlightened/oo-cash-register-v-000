@@ -3,7 +3,7 @@ class CashRegister
 
   def initialize(discount = 0)
     @total = 0
-    @discount = discount.to_f         # to float
+    @discount = discount.to_f         # to float to make formula work later on
     @items = []
   end
 
