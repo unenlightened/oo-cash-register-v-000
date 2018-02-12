@@ -7,9 +7,10 @@ class CashRegister
     @items = []
   end
 
- def add_item(title, price, quantity = 1) 
+ def add_item(title, price, quantity = 1)
    @last_transaction = price * quantity
    @total += last_transaction
+
    count = 0
    until count == quantity do
      @items << title
